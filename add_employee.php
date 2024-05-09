@@ -48,7 +48,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Display success message and button to navigate back to welcome page
         echo '<div style="text-align: center; margin-top: 20px;">';
         echo '<p style="font-size: 18px; color: green;">Employee added successfully.</p>';
-        echo '<button style="padding: 10px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;" onclick="window.location.href=\'welcome.php\'" type="button">Back to Welcome Page</button>';
+        echo '<button style="padding: 10px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;" onclick="window.location.href=\'welcome.html\'" type="button">Back to Welcome Page</button>';
         echo '</div>';
 
         exit(); // Terminate script execution
